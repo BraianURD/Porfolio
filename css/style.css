@@ -1,2 +1,317 @@
-h1 {
-  color: red; }
+body {
+  background-color: #242423;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif; }
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #242423;
+  padding-left: 40px;
+  padding-right: 40px; }
+  header .titulo {
+    font-size: 3em; }
+    header .titulo span {
+      color: #f9004d; }
+
+@media screen and (max-width: 1419px) {
+  header {
+    position: relative;
+    top: 0;
+    background-color: #242423;
+    padding-left: 0;
+    padding-right: 0; }
+    header .titulo {
+      font-size: 3em; }
+      header .titulo span {
+        color: #f9004d; } }
+
+/*INICIO*/
+main {
+  padding-left: 40px;
+  padding-right: 40px; }
+  main .flex {
+    display: flex;
+    flex-direction: column; }
+    main .flex .inicio {
+      padding: 20%;
+      background-image: url(../imagenes/knock.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 100%; }
+    main .flex p {
+      color: #ffcad4;
+      font-size: 4em; }
+    main .flex h1 {
+      color: white;
+      font-size: 8em; }
+      main .flex h1 span {
+        color: #f9004d; }
+        main .flex h1 span:hover {
+          color: #a2d2ff; }
+
+/* ACERCA DE MI*/
+.inicio {
+  padding-top: 50px;
+  text-align: center; }
+  .inicio p {
+    color: #ffcad4;
+    font-size: 2em; }
+  .inicio h2 {
+    margin: 10px;
+    color: white;
+    font-size: 8em; }
+  .inicio h1 {
+    color: white;
+    font-size: 8em; }
+    .inicio h1 span {
+      color: #f9004d; }
+      .inicio h1 span:hover {
+        color: #a2d2ff; }
+
+/*PROYECTO*/
+main h1 {
+  color: white;
+  font-size: 8em; }
+  main h1 span {
+    color: #f9004d; }
+    main h1 span:hover {
+      color: #a2d2ff; }
+
+main p {
+  color: black;
+  font-size: 1em; }
+
+main .boton {
+  background-color: black;
+  color: white; }
+  main .boton:hover {
+    background-color: #eb5e28; }
+
+.flex-Proyec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+/*Habilidades*/
+main h3 {
+  color: #a2d2ff;
+  margin: 10px; }
+
+/*Contactos*/
+.contactos h1 {
+  text-align: center; }
+
+.contactos p {
+  color: #839788;
+  padding-top: 10px;
+  font-size: 2em; }
+  .contactos p span {
+    color: white;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.contactame {
+  text-align: center; }
+  .contactame h2 {
+    color: #fff;
+    font-size: 5em; }
+    .contactame h2 span {
+      color: #f9004d; }
+  .contactame .face {
+    font-size: 50px;
+    padding-left: 50px; }
+    .contactame .face a {
+      color: #c9ada7; }
+      .contactame .face a:hover {
+        color: #eb5e28; }
+
+/*RESPONSIVE */
+@media screen and (max-width: 1418px) {
+  /*inicio-responsive*/
+  main {
+    padding-left: 0px;
+    padding-right: 0px; }
+    main .flex {
+      display: flex;
+      flex-direction: column; }
+      main .flex .inicio {
+        padding: 20%;
+        background-image: url(../imagenes/knock.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll; }
+      main .flex p {
+        color: #ffcad4;
+        font-size: 1.6em; }
+      main .flex h1 {
+        color: white;
+        font-size: 3em; }
+        main .flex h1 span {
+          color: #f9004d; }
+  /* ACERCA DE MI-responsive*/
+  .inicio {
+    text-align: center; }
+    .inicio p {
+      color: #ffcad4;
+      font-size: 1em; }
+    .inicio h2 {
+      margin: 10px;
+      color: white;
+      font-size: 4em; }
+    .inicio h1 {
+      color: white;
+      font-size: 4em; }
+      .inicio h1 span {
+        color: #f9004d; }
+        .inicio h1 span:hover {
+          color: #a2d2ff; }
+  /*proyecto-responsive*/
+  main h1 {
+    color: white;
+    font-size: 4em; }
+    main h1 span {
+      color: #f9004d; }
+      main h1 span:hover {
+        color: #a2d2ff; }
+  .flex-Proyec {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 35%; } }
+
+@media screen and (max-width: 697px) {
+  main .flex {
+    display: flex;
+    flex-direction: column; }
+    main .flex .inicio {
+      padding: 30%;
+      background-image: url(../imagenes/knock.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: local; }
+    main .flex p {
+      color: #ffcad4;
+      font-size: 1.2em; }
+    main .flex h1 {
+      color: white;
+      font-size: 2em; }
+  .inicio {
+    text-align: center; }
+    .inicio p {
+      margin: 0;
+      color: #ffcad4;
+      font-size: 1em; }
+    .inicio h2 {
+      margin: 10px;
+      color: white;
+      font-size: 4em; }
+    .inicio h1 {
+      color: white;
+      font-size: 2em; }
+      .inicio h1 span {
+        color: #f9004d; }
+        .inicio h1 span:hover {
+          color: #a2d2ff; }
+  /*proyecto-responsive*/
+  main h1 {
+    color: white;
+    font-size: 3em; }
+    main h1 span {
+      color: #f9004d; }
+      main h1 span:hover {
+        color: #a2d2ff; }
+  .flex-Proyec {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 10%; }
+  /*Contactos-responsive*/
+  .contactos h1 {
+    text-align: center;
+    font-size: 2em; }
+  .contactos p {
+    color: #f87060;
+    padding-top: 10px;
+    font-size: 1em; }
+    .contactos p span {
+      color: white;
+      font-size: 1em;
+      font-family: 'Josefin Sans', sans-serif; }
+  .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .contactame {
+    text-align: center; }
+    .contactame h2 {
+      color: #fff;
+      font-size: 2em; }
+      .contactame h2 span {
+        color: #f9004d; }
+    .contactame .face {
+      font-size: 50px;
+      padding-left: 50px; }
+      .contactame .face a {
+        color: #c9ada7; }
+        .contactame .face a:hover {
+          color: #eb5e28; } }
+
+footer {
+  border: #242423 solid 1px;
+  margin: 20px 0px 0px;
+  background-color: #2f2235; }
+  footer h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #ffff;
+    margin: 40px; }
+    footer h2::first-letter {
+      color: #a2d2ff; }
+  footer .redes {
+    display: flex;
+    justify-content: space-around; }
+    footer .redes .face a {
+      font-size: 100px;
+      color: #a2d2ff;
+      text-decoration: none; }
+      footer .redes .face a:hover {
+        color: #f9004d; }
+  footer h3 {
+    text-align: center;
+    border: #242423 5px transparent;
+    padding-top: 2.6%;
+    color: #f5ebe0;
+    font-size: 0.9em; }
+
+@media screen and (max-width: 660px) {
+  a {
+    font-size: 30px; }
+  footer {
+    border: #242423 solid 1px;
+    margin: 20px 0px 0px;
+    background-color: #2f2235; }
+    footer h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #ffff;
+      margin: 40px; }
+      footer h2::first-letter {
+        color: #a2d2ff; }
+    footer .redes {
+      display: flex;
+      justify-content: space-around; }
+      footer .redes .face a {
+        font-size: 60px;
+        color: #a2d2ff;
+        text-decoration: none; }
+        footer .redes .face a:hover {
+          color: #f9004d; } }

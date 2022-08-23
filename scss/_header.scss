@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #242423;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .titulo {
+        font-size: 3em;
+
+        span {
+            color: $color-rojo;
+        }
+    }
+}
+
+@media screen and (max-width:1419px) {
+    header {
+        position: relative;
+        top: 0;
+        background-color: #242423;
+        padding-left: 0;
+        padding-right: 0;
+
+        .titulo {
+            font-size: 3em;
+
+            span {
+                color: $color-rojo;
+            }
+        }
+    }
+}

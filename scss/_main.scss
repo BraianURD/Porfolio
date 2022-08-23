@@ -1,0 +1,410 @@
+/*INICIO*/
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+        .inicio {
+            padding: 20%;
+            background-image: url(../imagenes/knock.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+        }
+
+
+        p {
+            color: #ffcad4;
+            font-size: 4em;
+        }
+
+
+        h1 {
+            color: white;
+            font-size: 8em;
+
+
+            span {
+                color: $color-rojo;
+
+                &:hover {
+                    color: #a2d2ff;
+                }
+            }
+        }
+    }
+}
+
+/* ACERCA DE MI*/
+
+.inicio {
+    padding-top: 50px;
+    text-align: center;
+
+    p {
+        color: #ffcad4;
+        font-size: 2em;
+    }
+
+    h2 {
+        margin: 10px;
+        color: white;
+        font-size: 8em;
+    }
+
+    h1 {
+        color: white;
+        font-size: 8em;
+
+        span {
+            color: $color-rojo;
+
+            &:hover {
+                color: #a2d2ff;
+            }
+        }
+
+    }
+}
+
+/*PROYECTO*/
+main {
+    h1 {
+        color: white;
+        font-size: 8em;
+
+        span {
+            color: $color-rojo;
+
+            &:hover {
+                color: #a2d2ff;
+            }
+        }
+
+    }
+
+    p {
+        color: black;
+        font-size: 1em;
+    }
+
+    .boton {
+        background-color: black;
+        color: white;
+
+        &:hover {
+            background-color: #eb5e28;
+        }
+    }
+}
+
+.flex-Proyec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Habilidades*/
+main {
+    h3 {
+        color: #a2d2ff;
+        margin: 10px;
+    }
+}
+
+/*Contactos*/
+.contactos {
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: #839788;
+        padding-top: 10px;
+        font-size: 2em;
+
+        span {
+            color: white;
+            font-size: 1em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactame {
+    text-align: center;
+
+    h2 {
+        color: #fff;
+        font-size: 5em;
+
+        span {
+            color: $color-rojo;
+        }
+    }
+
+    .face {
+        font-size: 50px;
+        padding-left: 50px;
+
+        a {
+            color: #c9ada7;
+
+
+            &:hover {
+                color: #eb5e28;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*RESPONSIVE */
+@media screen and (max-width:1418px) {
+
+    /*inicio-responsive*/
+    main {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+            .inicio {
+                padding: 20%;
+                background-image: url(../imagenes/knock.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+
+            }
+
+            p {
+                color: #ffcad4;
+                font-size: 1.6em;
+
+            }
+
+            h1 {
+                color: white;
+                font-size: 3em;
+
+
+                span {
+                    color: $color-rojo;
+                }
+            }
+        }
+    }
+
+    /* ACERCA DE MI-responsive*/
+
+    .inicio {
+        text-align: center;
+
+        p {
+            color: #ffcad4;
+            font-size: 1em;
+        }
+
+        h2 {
+            margin: 10px;
+            color: white;
+            font-size: 4em;
+        }
+
+        h1 {
+            color: white;
+            font-size: 4em;
+
+            span {
+                color: $color-rojo;
+
+                &:hover {
+                    color: #a2d2ff;
+                }
+            }
+
+        }
+    }
+
+    /*proyecto-responsive*/
+    main {
+        h1 {
+            color: white;
+            font-size: 4em;
+
+            span {
+                color: $color-rojo;
+
+                &:hover {
+                    color: #a2d2ff;
+                }
+            }
+
+        }
+    }
+
+    .flex-Proyec {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 35%;
+    }
+}
+
+
+
+@media screen and (max-width:697px) {
+
+    main {
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+            .inicio {
+                padding: 30%;
+                background-image: url(../imagenes/knock.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: local;
+
+            }
+
+            p {
+                color: #ffcad4;
+                font-size: 1.2em;
+            }
+
+            h1 {
+                color: white;
+                font-size: 2em;
+            }
+        }
+    }
+
+
+    .inicio {
+        text-align: center;
+
+        p {
+            margin: 0;
+            color: #ffcad4;
+            font-size: 1em;
+        }
+
+        h2 {
+            margin: 10px;
+            color: white;
+            font-size: 4em;
+        }
+
+        h1 {
+            color: white;
+            font-size: 2em;
+
+            span {
+                color: $color-rojo;
+
+                &:hover {
+                    color: #a2d2ff;
+                }
+            }
+
+        }
+    }
+
+    /*proyecto-responsive*/
+    main {
+        h1 {
+            color: white;
+            font-size: 3em;
+
+            span {
+                color: $color-rojo;
+
+                &:hover {
+                    color: #a2d2ff;
+                }
+            }
+
+        }
+    }
+
+    .flex-Proyec {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 10%;
+    }
+
+    /*Contactos-responsive*/
+    .contactos {
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        p {
+            color: #f87060;
+            padding-top: 10px;
+            font-size: 1em;
+
+            span {
+                color: white;
+                font-size: 1em;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+        }
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contactame {
+        text-align: center;
+
+        h2 {
+            color: #fff;
+            font-size: 2em;
+
+            span {
+                color: $color-rojo;
+            }
+        }
+
+        .face {
+            font-size: 50px;
+            padding-left: 50px;
+
+            a {
+                color: #c9ada7;
+
+
+                &:hover {
+                    color: #eb5e28;
+                }
+            }
+        }
+    }
+
+}
